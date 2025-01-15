@@ -1,0 +1,26 @@
+h1,h2,h3,h4{
+    color: white;
+}
+
+p {
+    color: white;
+    width: 500px;
+    border: 1px solid black;
+  }
+  
+body{
+    background-color: black;
+}
+
+.main{
+    
+    p,h1{
+        color: black;
+    }
+
+    img{
+        width: 350px;
+    }
+    width: 700px;
+    background-color: aliceblue;
+}
