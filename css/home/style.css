@@ -40,6 +40,7 @@ body{
     border-radius: 10px;
 
     .projetos {
+        margin: 2%;
         position: relative; 
         display: block;
         width: 50%;
@@ -49,6 +50,7 @@ body{
             width: 100%;
             height: auto;
             display: block;
+            border-radius: 10px;
         }
 
         h1 {
