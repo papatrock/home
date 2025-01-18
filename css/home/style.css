@@ -79,6 +79,13 @@ body{
     }
 }
 
+#apresentacao{
+    p{
+        color: gray;
+        font-size: x-large;
+    }
+}
+
 
 footer {
     width: 100%;
