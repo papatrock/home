@@ -49,12 +49,12 @@ body{
      
 }
 
-.col.projetos {
+#projeto{
+    background-color: #A6A6A6;
     border-radius: 10px;
     h1{
         text-align: center;
     }
-    background-color: #A6A6A6;
     img {
         width: 100%;
         height: auto;
@@ -85,7 +85,8 @@ footer {
     margin-top: 2%;
     background-color: #A6A6A6;
     display: block;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     .bi {
         font-size: 3rem;
         color: black; 
