@@ -50,7 +50,8 @@ body{
 
 #projeto{
     background-color: #333;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     h1{
         color: black;
         text-align: center;
@@ -79,12 +80,48 @@ body{
     }
 }
 
+#tech-icons{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    i{
+        font-size: 2rem; 
+        margin: 5px;
+    }
+    
+}
+
 #apresentacao{
+    
     p{
+        text-align: center;
         color: gray;
         font-size: x-large;
     }
+
+    span{
+        margin: 1%;
+        position:relative;
+        font-size: 1rem;
+        color: black; 
+        align-self: center;
+    }
+
+    .github-stats{
+        text-align: center;
+        background-color: #333;
+
+        img{
+            margin: 1%;
+        }
+    }
 }
+
 
 
 footer {
