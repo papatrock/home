@@ -57,6 +57,10 @@ body{
         color: black;
         text-align: center;
     }
+    h2{
+        text-align: center;
+        color: black;
+    }
     img {
         width: 100%;
         height: auto;
@@ -113,10 +117,7 @@ body{
         color: black; 
         align-self: center;
     }
-    h2{
-        text-align: center;
-        color: #A6A6A6;
-    }
+    
 }
 
 .github-stuff{
