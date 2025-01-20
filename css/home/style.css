@@ -99,7 +99,7 @@ body{
 
 
 #apresentacao{
-    
+    background-color: black;
     p{
         text-align: center;
         color: gray;
@@ -134,6 +134,74 @@ body{
     }
 }
 
+.proffissional-path{
+    background-color: black;
+    margin: 2%;
+    padding: 5%;
+    h1{
+        color: white;
+    }
+    ul.tree, ul.tree ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul.tree ul {
+        margin-left: 20px;
+    }
+    
+    ul.tree li {
+        margin: 0;
+        padding: 0 10px;
+        line-height: 28px;
+        color: #369;
+        font-weight: bold;
+        font-size: 18px;
+        border-left: 3px solid rgb(100,100,100);
+    }
+    
+    ul.tree li:last-child {
+        border-left: none;
+    }
+    
+    ul.tree li:before {
+        position: relative;
+        top: -0.4em;
+        height: 1em;
+        width: 16px;
+        color: white;
+        border-bottom: 3px solid rgb(100,100,100);
+        content: "";
+        display: inline-block;
+        left: -10px;
+    }
+    
+    ul.tree li:last-child:before {
+        border-left: 3px solid rgb(100,100,100);
+    }
+    
+    ul.tree li.year{
+        color: white;
+        font-size: x-large;
+    }
+    
+    ul.tree li.title{
+        color: #009929;
+        font-size: large;
+    }
+    
+    ul.tree li.subtitle{
+        color: #5ccb5f;
+        font-size: medium;
+    }
+    
+    ul.tree li.description{
+        color: grey;
+        font-size: small;
+    }
+
+}
 
 
 footer {
@@ -142,6 +210,7 @@ footer {
 	padding: 20px;
 	text-align: center;
 	margin-top: 50px;
+    
     ul {
         list-style: none;
         padding: 0;
@@ -164,6 +233,21 @@ footer {
         font-size: 3rem;
         color: white; 
         align-self: center;
+    }
+
+    img{
+        width: 4rem;
+        &#right{
+            float: right; 
+            margin-left: 20px; 
+            margin-top: 0; 
+        }
+        &#left{
+            float: left; 
+            margin-right: 20px; 
+            margin-top: 0; 
+        }
+        
     }
 
 
