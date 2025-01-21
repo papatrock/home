@@ -1,9 +1,10 @@
 const routes = {
-    '/':'index.html',  
+    '/': 'index.html',  
+    '/home': 'index.html',  
     '/sobre': 'pages/sobre.html',
     '/contato': 'pages/contato.html',
     '/projetos': 'pages/projetos.html',
-    '/rest': 'pages/rest.html',
+    '/rest': 'pages/projetos.html',
 };
 
 function loadRoute() {
